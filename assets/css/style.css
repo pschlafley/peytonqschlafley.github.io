@@ -159,6 +159,7 @@ header nav ul li a {
     margin: 50px auto;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin: 50px 35px;
 }
 
 .item-1 img {
@@ -171,7 +172,11 @@ header nav ul li a {
     width: 200px;
 }
 
-
+.my-work h2 {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 50px;
+}
 
 /* Contact Me Section */
 
