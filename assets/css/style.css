@@ -27,14 +27,14 @@ header {
 
 header h1 {
     font-size: 36px;
-    color: var(--second-color);
+    color: var(--third-color);
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, .8); 
 }
 
 header a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: var(--third-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, .8);
  }
 
@@ -97,8 +97,6 @@ header nav ul li a {
 
 .subtitle-text {
     color: var(--third-color);
-    font-size: 3.5vw;
-    font-weight: lighter;
 }
 
 /* About Me section */
@@ -184,16 +182,12 @@ header nav ul li a {
     display: flex;  
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 7px 0;
+    margin: 40px 0;
 }
 
 .contact-me, .my-number, .my-github, .gmail {
     flex: 1;
     text-align: center;
-}
-
-.my-number {
-    margin-left: 30px;
 }
 
 .my-github a {

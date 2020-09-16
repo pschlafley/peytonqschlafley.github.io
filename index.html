@@ -3,15 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link 
+    rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>MyPortfolio</title>
 </head>
 
-<body>
+<body class="font-family-base font-size-base font-height-base">
     <!-- navigation -->
-    <header>
-        <h1 class="hover">
-            <a href="/">Peyton Schlafley</a>
+    <header class="container-fluid">
+        <h1>
+            Peyton Schlafley
         </h1>
         <nav>
             <ul>
@@ -32,12 +40,12 @@
         <h2 class="subtitle">
             Hi, I'm Peyton
         </h2>
-        <p class="subtitle-text">Student / Web Developer</p>
+        <p class="display-3 pr-5 flex-wrap subtitle-text">Student / Web Developer</p>
     </section>   
 
     <!-- Main Content -->
     <section class="content">
-        <img src="./assets/images/P+C.jpg" alt="My girlfriend and I dancing"/>
+        <img class="img-fluid" src="./assets/images/P+C.jpg" alt="My girlfriend and I dancing"/>
         <div class="about-me" id="about-me">
             <h2>About Me</h2>
             <div>
@@ -55,7 +63,7 @@
         <div id="my-work">
             <h2>My Work</h2>
             <div class="projects">
-                    <a class="item-1" href="file:///Users/peyton.schlafley/Desktop/projects/run-buddy/index.html">
+                    <a class="item-1" target="_blank" href="file:///Users/peyton.schlafley/Desktop/projects/run-buddy/index.html">
                         <img src="./assets/images/run-buddy.png" />
                         
                     <a class="item-2" href="">
@@ -71,7 +79,7 @@
 
     <section class="contact-info">
 
-        <div id="contact-me">
+        <div class="contact-me">
             <h1>Contact Me</h1>
         </div>
 
