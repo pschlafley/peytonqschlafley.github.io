@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
     
     <link 
     rel="stylesheet" 
@@ -15,94 +22,120 @@
     <title>MyPortfolio</title>
 </head>
 
-<body class="font-family-base font-size-base font-height-base">
+<body>
     <!-- navigation -->
-    <header class="container-fluid">
-        <h1>
-            Peyton Schlafley
-        </h1>
-        <nav>
-            <ul>
-                <li class="hover-1"> 
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li class="hover-2">
-                    <a href="#my-work">My Work</a>
-                </li>
-                <li class="hover-3">
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
+    <header>
+        <div class="row mt-3">
+            <div class="col-7 ml-5">
+                <div class="border">
+                    <h1 class="pl-4 mt-3 color-1-text">PS</h1>
+                </div>
+            </div>
+
+            <div class="col-1 pt-1">
+                <a class="color-2" href="#about-me">About Me</a>
+            </div>
+
+            <div class="col-1 pt-4">
+                <a class="color-2" href="#my-work">My Work</a>
+            </div>
+
+            <div class="col-1 pt-5">
+                <a class="color-2" href="#contact-me">Contact Me</a>
+            </div>
+        </div>
     </header>
 
-    <section class="hero">
-        <h2 class="subtitle">
-            Hi, I'm Peyton
-        </h2>
-        <p class="display-3 pr-5 flex-wrap subtitle-text">Student / Web Developer</p>
+    <section id="about-me" class="color-1 mt-3">
+
+        <div class="pl-4 pt-5 row">
+            <h1 class="col-6 color-2">About Me</h1>
+        </div>
+
+        <div class="row ml-5 mt-5">
+            <div class="col-4">
+                <h3 class="color-2">Hi, I'm Peyton</h3>
+            </div>
+
+            <div class="col-8">
+                <p class="display-3 color-2">Student / Web Developer</p>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-3 pb-5">
+                    <img class="w-75 image-radius" src="./assets/images/IMG_1181.jpeg" alt="My girlfriend and I">
+                </div>
+
+                <div class="col-9 pt-5">
+                    <p class="ml-5 color-2 lead"> I am 22 years old, from Peoria, Illinois! <i class="fas fa-flag-usa"></i><br>
+                        The most important thing to me is my faith in Jesus Christ! <i class="fas fa-cross"></i><br>
+                        My favorite things to do are to travel, rock climbing, and playing soccer! <i class="fas fa-futbol"></i><br>
+                        I have been to 7 different countries including Brazil, Lebanon, India, Myanmar, England, Thailand, and Cyprus <i class="fas fa-globe-europe"></i>
+                    </p> 
+                </div>
+            </div>
+        </div>
+
     </section>   
 
-    <!-- Main Content -->
-    <section class="content">
-        <img class="img-fluid" src="./assets/images/P+C.jpg" alt="My girlfriend and I dancing"/>
-        <div class="about-me" id="about-me">
-            <h2>About Me</h2>
-            <div>
-                <p>
-                    I am a 22 year old, from Peoria, Illinois, but living in Pennsylvania. 
-                    I am a student at the University of Pennsylvania's coding bootcamp, which partners with Trilogy Education Services.
-                    The most important things to me are: my faith in Jesus Christ, my girlfriend (Casey who is pictured above), and my family!
-                    Something that I love to do is travel, I have been to 13 different states, and 5 different countries!
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section class="my-work">
-        <div id="my-work">
-            <h2>My Work</h2>
-            <div class="projects">
-                    <a class="item-1" target="_blank" href="file:///Users/peyton.schlafley/Desktop/projects/run-buddy/index.html">
-                        <img src="./assets/images/run-buddy.png" />
+     <section class="color-2-bg" id="my-work">
+        <div class="ml-3 ">
+            <h1 class="color-1-text pt-4">My Work</h1>
+            <div class="row m-5">
+                <div class="carousel-item">
+                    <img src="./assets/images/run-buddy.png" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>...</h5>
+                      <p>...</p>
+                    </div>
+                  </div>
+                <!-- <div class="card mb-5 color-1" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/images/run-buddy.png" alt="screenshot of run-buddy landing page">
+                    <div class="card-body">
+                      <h5 class="card-title">Run-Buddy</h5>
+                      <p class="card-text">Run-Buddy is a responsive landing page for the company Run-Buddy</p>
+                      <a target="_blank" href="file:///Users/peyton.schlafley/Desktop/projects/run-buddy/index.html" class="btn btn-primary">Run-Buddy!</a>
+                    </div>
+                </div> -->
                         
-                    <a class="item-2" href="">
-                        <img src="./assets/images/Screen Shot 2020-08-16 at 9.12.35 PM.png" />
-                    </a>
+                <a class="item-2" href="">
+                    <img src="" />
+                </a>
 
-                    <a class="item-3" href="">
-                        <img src="./assets/images/Screen Shot 2020-08-16 at 9.14.48 PM.png" />
-                    </a>
+                <a class="item-3" href="">
+                    <img src="" />
+                </a>
             </div>
         </div>
     </section>
 
-    <section class="contact-info">
+    <!-- <footer class="contact-info">
 
         <div class="contact-me">
-            <h1>Contact Me</h1>
+            <h1>Contact Me:</h1>
         </div>
 
         <div class="my-number">
             <h3>
-                (222)222-2222
+                (309) 868-7329
             </h3>
         </div>
 
         <div class="my-github">
             <h3>
-                <a href="https://github.com/pschlafley">My_Github</a>
+                <a target="_blank" href="https://github.com/pschlafley"><i class="text-dark fab fa-github fa-2x"></i></a>
             </h3>
         </div>
 
         <div class="gmail">
             <h3>
-                fakegmail@gmail.com
+                <a href= "mailto: pschlafley0@gmail.com" target="_blank"><i class="text-danger fas fa-at fa-2x"></i></a>
             </h3>
         </div>
 
-    </section>
+    </footer> -->
 
+<script src="./assets/js/script.js"></script>
 </body>
 
 </html>
