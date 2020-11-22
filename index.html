@@ -32,16 +32,16 @@
                 </div>
             </div>
 
-            <div class="col-1 pt-1">
-                <a class="color-2" href="#about-me">About Me</a>
+            <div class="col-1 pt-4">
+                <a class="color-2 nav-text" href="#about-me">About Me</a>
             </div>
 
             <div class="col-1 pt-4">
-                <a class="color-2" href="#my-work">My Work</a>
+                <a class="color-2 nav-text" href="#my-work">My Work</a>
             </div>
 
-            <div class="col-1 pt-5">
-                <a class="color-2" href="#contact-me">Contact Me</a>
+            <div class="col-1 pt-4">
+                <a class="color-2 nav-text" href="#contact-me">Contact Me</a>
             </div>
         </div>
     </header>
@@ -55,26 +55,55 @@
         <div class="row ml-5 mt-5">
             
             <div class="col-8">
-                <p class="display-3 color-2">Student / Web Developer</p>
+                <p class="color-2 responsive-text">Full Stack Web Developer</p>
             </div>
 
             <div class="row mt-5">
                 <div class="col-3 pb-5">
-                    <img class="w-75 image-radius" src="./assets/images/IMG_1181.jpeg" alt="My girlfriend and I">
+                    <img class="w-75 image-radius" src="./assets/images/peyton.JPG" alt="My girlfriend and I">
                 </div>
 
                 <div class="col-9 pt-5">
-                    <p class="ml-5 color-2 lead"> I am 22 years old, from Peoria, Illinois! <i class="fas fa-flag-usa"></i><br>
-                        The most important thing to me is my faith in Jesus Christ! <i class="fas fa-cross"></i><br>
-                        My favorite things to do are to travel, rock climbing, and playing soccer! <i class="fas fa-futbol"></i><br>
-                        I have been to 7 different countries including Brazil, Lebanon, India, Myanmar, England, Thailand, and Cyprus <i class="fas fa-globe-europe"></i>
-                    </p> 
+                    <p class="ml-5 color-2 lead brand-text"> I specialize in JavaScript, NodeJs, and ExpressJs.</p> 
                 </div>
             </div>
         </div>
     </section>   
 
-     <section class="container-fluid" id="my-work">
+    <section class="container-fluid" id="technologies">
+       <h1 class="color-2">Technologies</h1>
+       <div class="container">
+            <div class="row">
+                <div class="p-5">
+                    <i class="fab fa-html5 fa-4x"></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="p-5">
+                   <i class="fab fa-css3-alt fa-4x"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="p-5">
+                   <i class="fab fa-js-square fa-4x"></i>
+                   <p>JavaScript</p>
+                </div>
+                <div class="p-5">
+                   <i class="fab fa-node fa-4x"></i>
+                   <p>NodeJs</p>
+                </div>
+                <div class="p-5"><i class="fab fa-git fa-4x"></i></div>
+                <div class="p-5">
+                   <i class="fab fa-github-square fa-4x"></i>
+                   <p>Github</p>
+                </div>
+               <div class="p-5">
+                   <i class="fab fa-bootstrap fa-4x"></i>
+                    <p>Bootstrap</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid" id="my-work">
 
         <div class="ml-3 ">
             <h1 class="color-2 pt-4">My Work</h1>
@@ -98,6 +127,7 @@
                           <h5 class="card-title color-2">WeatherDashboard <i class="far fa-sun"></i></h5>
                           <p class="card-text color-2">Search any city and get current weather data & 5 day forecast!</p>
                           <a target="_blank" href="https://pschlafley.github.io/weatherDashboard/" class="btn btn-primary">WeatherDashboard!</a>
+                          <a target="_blank" href="https://github.com/pschlafley/weatherDashboard/" class="btn btn-primary">Github</a>
                         </div>
                     </div>
                 </div>
@@ -109,21 +139,36 @@
                           <h5 class="card-title color-2">WorkDayScheduler <i class="fas fa-briefcase"></i></h5>
                           <p class="card-text color-2">Need to stay on task? We've got you covered!</p>
                           <a target="_blank" href="https://pschlafley.github.io/Scheduler/" class="btn btn-primary">Work!</a>
+                          <a target="_blank" href="https://github.com/pschlafley/Scheduler" class="btn btn-primary">Github</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-sm-3">
                     <div class="card mb-5 color-1" style="width: 18rem;">
-                        <img class="card-img-top" src="./assets/images/Screen Shot 2020-09-25 at 3.39.47 PM.png" alt="screenshot of  TuneOut's page">
+                        <img class="card-img-top" src="./assets/images/Screen Shot 2020-09-25 at 3.39.47 PM.png" alt="screenshot of Tune Out's page">
                         <div class="card-body">
                           <h5 class="card-title color-2">Tune Out <i class="fas fa-headphones"></i></h5>
                           <p class="card-text color-2">Tune Out to your favorite music here!</p>
                           <a target="_blank" href="https://bspiewak6.github.io/music/" class="btn btn-primary">TuneOut!</a>
+                          <a target="_blank" href="https://github.com/bspiewak6/music" class="btn btn-primary">Github</a>
                         </div>
                     </div>
                 </div>
-            
+                <div class="col-sm-3">
+                    <div class="card mb-5" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/images/simplyreuse.png" alt="simply reuse's homepage">
+                        <div class="card-body">
+                          <h5 class="card-title color-2">Simply ReUse <i class="fas fa-recycle"></i></h5>
+                          <p class="card-text color-2">Simply ReUse is a fullstack NodeJs application that uses mysql data-base, and sequelize ORM to write to the data-base.
+                            </br>
+                            Users can signup, login, view articles about recycling, search for different items to recycle based on different categories in the database.
+                          </p>
+                          <a target="_blank" href="https://simplyreuse3.herokuapp.com/" class="btn btn-primary">ReUse here!</a>
+                          <a target="_blank" href="https://github.com/pschlafley/Simply-ReUse" class="btn btn-primary">Github Repo</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -134,22 +179,29 @@
                 <h1>Contact Me:</h1>
             </div>
     
-            <div class="pt-3 col-3">
+            <div class="pt-3 col-2">
                 <i data-toggle="tooltip" data-placement="top" title="(309) 868-7329" class="fas fa-phone fa-2x"></i>
             </div>
     
-            <div class="col-3 pt-1">
+            <div class="col-2 pt-1">
                 <h3>
                     <a target="_blank" href="https://github.com/pschlafley"><i data-toggle="tooltip" data-placement="top" title="My GitHub" class="color-2 fab fa-github fa-2x"></i></a>
                 </h3>
             </div>
     
-            <div class="col-3 pt-1">
+            <div class="col-2 pt-1">
                 <h3>
                     <a href= "mailto: pschlafley0@gmail.com" target="_blank"><i data-toggle="tooltip" data-placement="top" title="Email Me" class="text-danger fas fa-at fa-2x"></i></a>
                 </h3>
             </div>
 
+            <div class="col-2 pt-1">
+                <h3>
+                    <a href= "https://www.linkedin.com/in/peyton-schlafley-81125a1b1/" target="_blank"><i data-toggle="tooltip" data-placement="top" title="Linkedin Profile" class="fab fa-linkedin fa-2x"></i></a>
+                </h3>
+            </div>
+
+        <div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

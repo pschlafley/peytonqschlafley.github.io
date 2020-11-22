@@ -35,3 +35,19 @@ body {
     border-radius: 50%;
     width: 50px;
 }
+
+.responsive-text {
+    font-size: 4vw;
+}
+
+.container-fluid h1 {
+    font-size: 3vw;
+}
+
+.brand-text {
+    font-size: 1.5vw;
+}
+
+.nav-text {
+    font-size: 1.2vw;
+}
